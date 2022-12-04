@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabajo Integrador</title>
+</head>
+<body>
+    <section >
+        <h2>Diccionario </h2>
+        <form name="formDiccionario" action="">
+            <label for="palabra">Ingrese la palabra y seleccione si quiere saber su definicion</label>
+            <input type="text" id="palabra" required>
+            <button id="botonDefinicion">definicion</button>   
+        </form>
+        <div id="recuadroCeleste">
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Comprando muebles</h2>
+
+        <div class="compra">
+            <img src="./imagenes/canasto.png" alt="canasto de compras"> 
+            <div class="circulo" id="circuloCompra">0</div>
+        </div>
+        
+    
+        <div class="card">
+            <h3>Silla Living</h3>
+            <img src="./imagenes/silla.jpg" alt="silla">
+            <p>Una hermosa silla para su casa,donde poder relajarse</p>
+            <p>$<span>2500</span></p>
+            <button id="comprarItem">comprar</button>
+        </div>
+
+        <div class="zona2">
+            <button id="sacarItem">sacar producto</button>
+            <div class="total" id="totalPago">
+                <p>TOTAL:</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section>
+        <h2>Sumando productos al stock</h2>
+
+        <form action="">
+            <label for="usuario">Ingrese su usuario</label>
+            <input type="text" id="usuario" required>
+            <label for="password">Ingrese su password</label>
+            <input type="password" id="password" required>
+            <button id="botonIngresarProducto">Ingresar producto</button>
+        </form>
+
+        <div id="recuadroGris"> </div>   
+    </section>
+
+    <section>
+        <h2 id="tituloCancion">Jugando con la cancion</h2>
+        
+        <form name="formCancion"; action="">
+            <input id="textoCancion" type="text" >
+            <button id="botonCancion" >sacar</button>
+        </form> 
+    </section>
+
+    <section>
+        <h2>Dia y noche</h2>
+        <div class="tema" id="tema">
+            <h3 class="noche" id="noche">noche</h3>
+            <img id="murcielago" src="./imagenes/murcielago.png" alt="murcielago" srcset="">
+        </div>
+        
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
